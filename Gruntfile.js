@@ -482,6 +482,11 @@ var path           = require('path'),
                         'core/built/scripts/ghost.min.js': 'core/built/scripts/ghost.js'
                     }
                 }
+            },
+            forever: {
+              options: {
+                index: 'index.js'
+              }
             }
         };
 
